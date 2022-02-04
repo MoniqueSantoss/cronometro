@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+	background-image: url(hujh.jpg);
+	font-family: tahoma;
+	color : white;
+}
+input{
+  width: 40%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin-bottom: 5px;
+}
+
+#txt_hora{
+	
+  width: 40%;
+  height: 50px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin-bottom: 5px;
+  
+
+}
+
+#txt_min{
+  width: 40%;
+  height: 50px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin-bottom: 5px;
+	
+}
+
+
+input[type=button]{
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 40%;
+}
+input[type=button]:hover {
+  background-color: #40aa40;
+}
